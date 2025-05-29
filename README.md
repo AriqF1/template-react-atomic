@@ -46,6 +46,7 @@ A React starter template based on **Atomic Design** principles with:
 
 ## Folder Structure
 
+```
 src/
 ├── assets/ # Static files like images, icons
 ├── components/ # UI components (atoms, molecules, organisms)
@@ -56,6 +57,7 @@ src/
 ├── styles/ # Global styles / utilities (Tailwind config in root)
 ├── App.jsx
 └── main.jsx
+```
 
 ## Script Command
 
