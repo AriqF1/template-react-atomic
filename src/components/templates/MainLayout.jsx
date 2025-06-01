@@ -6,9 +6,12 @@ const MainLayout = ({ children }) => {
   return (
     <>
       <div className="bg-gray-100 min-h-screen flex flex-col">
-        <Header />
+        <Header title="MyApp" />
         <main className="flex-grow">{children}</main>
-        <Footer />
+        <Footer
+          title="MyApp"
+          note="build with reactjs atomic component design"
+        />
       </div>
     </>
   );
