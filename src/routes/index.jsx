@@ -15,14 +15,7 @@ const Router = () => {
           </MainLayout>
         }
       />
-      <Route
-        path="*"
-        element={
-          <MainLayout>
-            <NotFoundPage />
-          </MainLayout>
-        }
-      />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 };
