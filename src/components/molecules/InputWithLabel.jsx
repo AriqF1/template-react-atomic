@@ -3,7 +3,7 @@ import React from "react";
 const InputWithLabel = ({ label, id, ...props }) => {
   return (
     <div className="flex flex-col mb-4">
-      <label htmlFor={id} className="mb-1 font-semibold">
+      <label htmlFor={id} className="mb-1 font-semibold text-left">
         {label}
       </label>
       <input
